@@ -84,7 +84,6 @@ class App extends React.Component {
     } else {
       contents = (
         <>
-          <h1>Welcome to Bud-Wiser.</h1>
           <h2>Please register or login.</h2>
           <Login liftToken={this.liftToken} />
           <Signup liftToken={this.liftToken} />
